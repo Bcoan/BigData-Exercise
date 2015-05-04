@@ -30,8 +30,8 @@ public class ActionServiceTest extends AbstractTest {
 	@Test
 	public void testFindUserActions() {
 		service.createViewedAction(0l, 0l);
-		service.createViewedAction(0l, 1l);
-		service.createViewedAction(0l, 2l);
+		service.createAddedCartAction(0l, 1l);
+		service.createBoughtAction(0l, 2l);
 		
 		Collection<Action> actions = service.actionsByPerson(0l, 0l);
 
@@ -41,8 +41,8 @@ public class ActionServiceTest extends AbstractTest {
 	@Test
 	public void testFindUserActionsLimit2() {
 		service.createViewedAction(1l, 0l);
-		service.createViewedAction(1l, 1l);
-		service.createViewedAction(1l, 2l);
+		service.createAddedCartAction(1l, 1l);
+		service.createBoughtAction(1l, 2l);
 		
 		Collection<Action> actions = service.actionsByPerson(1l, 2l);
 
