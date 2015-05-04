@@ -44,9 +44,9 @@ public class ProductController {
 	
 	@ResponseStatus(HttpStatus.OK)
 	@RequestMapping(value="/{productId}", method=RequestMethod.GET)
-	public void findByPersonId(@PathVariable Long productId) {
+	public Product findByPersonId(@PathVariable Long productId) {
 		LOGGER.info("loading product from productId {}", productId);
-		service.findByProductId(productId);
+		return service.findByProductId(productId);
 	}
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	@RequestMapping(value="/{productId}", method=RequestMethod.DELETE)

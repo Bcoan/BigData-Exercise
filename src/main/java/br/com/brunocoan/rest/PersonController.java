@@ -46,9 +46,9 @@ private static final Logger LOGGER = LoggerFactory.getLogger(PersonController.cl
 	
 	@ResponseStatus(HttpStatus.OK)
 	@RequestMapping(value="/{personId}", method=RequestMethod.GET)
-	public void findByPersonId(@PathVariable Long personId) {
+	public Person findByPersonId(@PathVariable Long personId) {
 		LOGGER.info("loading person from personId {}", personId);
-		service.findByPersonId(personId);
+		return service.findByPersonId(personId);
 	}
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	@RequestMapping(value="/{personId}", method=RequestMethod.DELETE)
