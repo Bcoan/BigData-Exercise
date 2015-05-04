@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.com.brunocoan.domain.Product;
-import br.com.brunocoan.domain.repository.ProductRepository;
 import br.com.brunocoan.exception.DuplicatedException;
 import br.com.brunocoan.exception.NotFoundException;
+import br.com.brunocoan.repository.ProductRepository;
 
 @Service
 public class ProductService {

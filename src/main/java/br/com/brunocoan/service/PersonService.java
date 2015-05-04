@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.com.brunocoan.domain.Person;
-import br.com.brunocoan.domain.repository.ActionRepository;
-import br.com.brunocoan.domain.repository.PersonRepository;
 import br.com.brunocoan.exception.DuplicatedException;
 import br.com.brunocoan.exception.NotFoundException;
+import br.com.brunocoan.repository.ActionRepository;
+import br.com.brunocoan.repository.PersonRepository;
 
 @Service
 @Transactional

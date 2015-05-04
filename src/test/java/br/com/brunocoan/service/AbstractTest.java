@@ -14,8 +14,8 @@ import org.springframework.web.context.WebApplicationContext;
 import br.com.brunocoan.Application;
 import br.com.brunocoan.domain.Person;
 import br.com.brunocoan.domain.Product;
-import br.com.brunocoan.domain.repository.PersonRepository;
-import br.com.brunocoan.domain.repository.ProductRepository;
+import br.com.brunocoan.repository.PersonRepository;
+import br.com.brunocoan.repository.ProductRepository;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
 @WebAppConfiguration

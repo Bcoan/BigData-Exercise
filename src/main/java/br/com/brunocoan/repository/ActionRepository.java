@@ -1,4 +1,4 @@
-package br.com.brunocoan.domain.repository;
+package br.com.brunocoan.repository;
 
 import java.util.List;
 

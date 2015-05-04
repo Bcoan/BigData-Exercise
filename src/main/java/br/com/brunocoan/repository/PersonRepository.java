@@ -1,4 +1,4 @@
-package br.com.brunocoan.domain.repository;
+package br.com.brunocoan.repository;
 
 import org.springframework.data.neo4j.repository.GraphRepository;
 import org.springframework.stereotype.Repository;

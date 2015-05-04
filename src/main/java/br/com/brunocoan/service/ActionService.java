@@ -11,7 +11,7 @@ import br.com.brunocoan.domain.AddedCart;
 import br.com.brunocoan.domain.Bought;
 import br.com.brunocoan.domain.Person;
 import br.com.brunocoan.domain.Viewed;
-import br.com.brunocoan.domain.repository.ActionRepository;
+import br.com.brunocoan.repository.ActionRepository;
 
 @Service
 public class ActionService {
