@@ -50,7 +50,7 @@ public class ActionService {
 	}
 
 	public Collection<Action> actionsByPerson(Long personId, Long limit) {
-		if(limit > 1) {
+		if(limit > 0) {
 			return actionRepository.findByPerson(personService.findByPersonId(personId), limit);
 		}
 		return actionRepository.findByPerson(personService.findByPersonId(personId));
