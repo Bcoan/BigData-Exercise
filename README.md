@@ -1,4 +1,4 @@
-# BigData-Exercise
+# SpringBoot + Neo4J
 
 ## To run application
 mvn spring-boot:run  (requires maven 3 and java8)
