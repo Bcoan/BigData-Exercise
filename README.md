@@ -1,4 +1,5 @@
 # SpringBoot + Neo4J
+[![Code Climate](https://codeclimate.com/github/Bcoan/SpringBoot-Neo4J/badges/gpa.svg)](https://codeclimate.com/github/Bcoan/SpringBoot-Neo4J)
 
 ## To run application
 mvn spring-boot:run  (requires maven 3 and java8)
